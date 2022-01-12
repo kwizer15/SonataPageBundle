@@ -98,7 +98,7 @@ interface CmsManagerInterface
     /**
      * Returns the current page.
      *
-     * @return PageInterface
+     * @return PageInterface|null
      */
     public function getCurrentPage();
 
